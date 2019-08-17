@@ -1,0 +1,29 @@
+https://localhost:44382/api/Account/register
+
+{
+	Name :"Bhavin",
+        Country : "India",
+        InternationalPrefix: "+91",
+    	PhoneNumber :"9974733124",
+        Email :"Bhavin14patel@gmail.com",
+        Password:"12Bhavin@gmail",
+        ConfirmPassword:"12Bhavin@gmail",
+        Address : "Vapi",
+        CoordinateX :1.2,
+        CoordinateY : 2.2,
+        Source : "iOS",
+        PushTokenId :"12343"
+}
+
+https://localhost:44382/api/Account/createrole
+{
+	RoleName :"Admin"
+}
+
+https://localhost:44382/api/Account/login
+
+{
+	  UserName :"9974733477",
+      Password :"12Bhavin@gmail",
+      RememberMe : 0
+}
